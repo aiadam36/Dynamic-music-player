@@ -20,17 +20,10 @@ My first public project, A dynamic music player! Hope you guys liked it.
 - If we want to add another song, we do it like these
 
 ```javascript
-  {
-    id: 1,
-    title: "",
-    artist: "",
-    album: "",
-    albumArtUrl: "",
-    audioSrc: "",
+// Up here is the {id: 1}
     videoBgSrc: "",
     lyrics: []
   },
-// Like these
   {
     id: 2,
     title: "",
@@ -40,6 +33,19 @@ My first public project, A dynamic music player! Hope you guys liked it.
     audioSrc: "",
     videoBgSrc: "",
     lyrics: []
+  },
+```
+
+- To add lyrics, we do it like these
+
+```javascript
+// Other parts of the code
+    videoBgSrc: "",
+    lyrics: [
+      { time: 18, text: "We're no strangers to love" },
+// For your information, it uses seconds unit to define the lyrics timing
+      { time: 22.1, text: "You know the rules and so do I" },
+    ]
   },
 ```
 
