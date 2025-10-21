@@ -38,4 +38,20 @@ let songs = [
       { time: 23.9, text: "Tuk s'lamanya" },
     ]
   },
+  {
+    id: 3,
+    title: "Bye",
+    artist: "Altare",
+    album: "Bye Remix",
+    albumArtUrl: "assets/img/bye-remix.png",
+    audioSrc: "assets/music/bye-remix.mp3",
+    videoBgSrc: "assets/bg/bye-remix.mp4",
+    lyrics: [
+      { time: 0, text: "This ain't the first time I've been hostage to these tears" },
+      { time: 4.3, text: "I can't believe I'm finally movin' through my fears" },
+      { time: 8.7, text: "At least I know how hard we tried, both you and me" },
+      { time: 13.5, text: "Didn't we?" },
+      { time: 14.5, text: "Didn't we?" },
+    ]
+  }
 ];
