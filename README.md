@@ -2,7 +2,7 @@
 
 My first public project, A dynamic music player! Hope you guys liked it.
 
-- To add new lyrics, we can put it like this in `songs.js`
+- To add new song, we can put it like this in `songs.js`
 
 ```javascript
   {
