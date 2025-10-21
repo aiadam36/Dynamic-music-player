@@ -7,12 +7,12 @@ My first public project, A dynamic music player! Hope you guys liked it.
 ```javascript
   {
     id: 1,
-    title: "",
-    artist: "",
-    album: "",
-    albumArtUrl: "",
-    audioSrc: "",
-    videoBgSrc: "",
+    title: "Example",
+    artist: "Unknown Artist",
+    album: "Unknown Album",
+    albumArtUrl: "assets/img/example.png",
+    audioSrc: "assets/music/example.mp3",
+    videoBgSrc: "assets/bg/example.mp4",
     lyrics: []
   }
 ```
@@ -21,17 +21,17 @@ My first public project, A dynamic music player! Hope you guys liked it.
 
 ```javascript
 // Up here is the {id: 1}
-    videoBgSrc: "",
+    videoBgSrc: "assets/bg/example.mp4",
     lyrics: []
   },
   {
     id: 2,
-    title: "",
-    artist: "",
-    album: "",
-    albumArtUrl: "",
-    audioSrc: "",
-    videoBgSrc: "",
+    title: "Example 2",
+    artist: "Unknown Artist",
+    album: "Unknown Album",
+    albumArtUrl: "assets/img/example2.png",
+    audioSrc: "assets/music/example2.mp3",
+    videoBgSrc: "assets/bg/example2.mp4",
     lyrics: []
   },
 ```
@@ -40,7 +40,6 @@ My first public project, A dynamic music player! Hope you guys liked it.
 
 ```javascript
 // Other parts of the code
-    videoBgSrc: "",
     lyrics: [
       { time: 18, text: "We're no strangers to love" },
 // For your information, it uses seconds unit to define the lyrics timing
