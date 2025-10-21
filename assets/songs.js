@@ -21,12 +21,21 @@ let songs = [
   },
   {
     id: 2,
-    title: "",
-    artist: "",
-    album: "",
-    albumArtUrl: "",
-    audioSrc: "",
-    videoBgSrc: "",
-    lyrics: []
+    title: "Penjaga Hati",
+    artist: "Nadhif Basalamah",
+    album: "Penjaga Hati",
+    albumArtUrl: "assets/img/penjaga-hati.png",
+    audioSrc: "assets/music/penjaga-hati.mp3",
+    videoBgSrc: "assets/bg/penjaga-hati.mp4",
+    lyrics: [
+      { time: 0, text: "Woah-oh" },
+      { time: 3.2, text: "Karena bersamamu" },
+      { time: 5.3, text: "semua terasa indah" },
+      { time: 9.5, text: "Gundah gulana hatiku" },
+      { time: 12.1, text: "t'lah hancur sirna" },
+      { time: 15.7, text: "Janjiku tak akan kulepas wahai" },
+      { time: 19.3, text: "kau bidadariku dari surga" },
+      { time: 23.9, text: "Tuk s'lamanya" },
+    ]
   },
 ];
