@@ -16,7 +16,7 @@ let songs = [
       { time: 17, text: "kusedari kau lengkapi diriku" },
       { time: 22.2, text: "Sesungguhnya aku" },
       { time: 25.7, text: "mencintai dirimu" },
-      { time: 28.6, text: "Sesungguhnya" },
+      { time: 28.6, text: "Sesungguhnya" }
     ]
   },
   {
@@ -35,7 +35,7 @@ let songs = [
       { time: 12.1, text: "t'lah hancur sirna" },
       { time: 15.7, text: "Janjiku tak akan kulepas wahai" },
       { time: 19.3, text: "kau bidadariku dari surga" },
-      { time: 23.9, text: "Tuk s'lamanya" },
+      { time: 23.9, text: "Tuk s'lamanya" }
     ]
   },
   {
@@ -51,7 +51,40 @@ let songs = [
       { time: 4.3, text: "I can't believe I'm finally movin' through my fears" },
       { time: 8.7, text: "At least I know how hard we tried, both you and me" },
       { time: 13.5, text: "Didn't we?" },
-      { time: 14.5, text: "Didn't we?" },
+      { time: 14.5, text: "Didn't we?" }
+    ]
+  },
+  {
+    id: 4,
+    title: "Bintang 5",
+    artist: "Jemsii and Tenxi",
+    album: "Puting Beliung",
+    albumArtUrl: "assets/img/bintang-5.jpeg",
+    audioSrc: "assets/music/bintang-5.mp3",
+    videoBgSrc: "assets/bg/bintang-5.mp4",
+    lyrics: [
+      { time: 1.6, text: "Kau curi-curi" },
+      { time: 3.3, text: "pandangan" },
+      { time: 5.1, text: "Ku tahu kamu suka" },
+      { time: 6.6, text: "tantangan" },
+      { time: 8.3, text: "Oh jangan di" },
+      { time: 9.9, text: "tahan-tahan" },
+      { time: 11.5, text: "Aku tahu tipemu yang berandalan" },
+      { time: 14, text: "Tapi jangan komplain" },
+      { time: 15.9, text: "soal keadaan" },
+      { time: 17.9, text: "Bintang lima tapi ku bukan ancaman" },
+      { time: 20.5, text: "Aku bukan polisi" },
+      { time: 22.1, text: "ku buatmu angkat tangan" },
+      { time: 24.4, text: "Jangan buru-buru" },
+      { time: 25.8, text: "kita pelan-pelan" },
+      { time: 27.6, text: "..." },
+      { time: 29.3, text: "Curi-curi pandang" },
+      { time: 30.8, text: "..." },
+      { time: 32.4, text: "Jangan ditahan-tahan" },
+      { time: 34, text: "..." },
+      { time: 35.9, text: "Ku bukan ancaman" },
+      { time: 37.3, text: "..." },
+      { time: 39.1, text: "Kita pelan-pelan" }
     ]
   }
 ];
