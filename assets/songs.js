@@ -86,5 +86,25 @@ let songs = [
       { time: 37.3, text: "..." },
       { time: 39.1, text: "Kita pelan-pelan" }
     ]
+  },
+  {
+    id: 5,
+    title: "Bergema Sampai Selamanya",
+    artist: "Nadhif Basalamah",
+    album: "Bergema Sampai Selamanya",
+    albumArtUrl: "assets/img/bergema-sampai-selamanya.png",
+    audioSrc: "assets/music/bergema-sampai-selamanya.mp3",
+    videoBgSrc: "assets/bg/bergema-sampai-selamanya.mp4",
+    lyrics: [
+      { time: 1.2, text: "Bersandar padaku taruh di bahuku" },
+      { time: 8, text: "Relakan semua bebas semaumu" },
+      { time: 14, text: "Percayalah ini sayang terlewatkan" },
+      { time: 20.6, text: "Kusampaikan dalam nyanyian" },
+      { time: 24.2, text: "bergema sampai selamanya" },
+      { time: 28.2, text: "Dunia pasti ada akhirnya" },
+      { time: 34.8, text: "Bintang-bintang pun ada umurnya" },
+      { time: 41.4, text: "Maka tenang saja kita di sini berdua" },
+      { time: 51.5, text: "Nikmati sementara yang ada" }
+    ]
   }
 ];
